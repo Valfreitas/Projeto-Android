@@ -9,7 +9,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 :root {
-    --cor00: #ebe5c5;
+    --cor00: #83e1ad50;
     --cor01: #83e1ad;
     --cor02: #3ddc84;
     --cor03: #2fa866;
@@ -38,70 +38,97 @@ body {
     height: 100vh;
 }
 
-header{
+strong {
+    background-color: var(--cor01);
+    color: var(--cor04);
+    font-size: 1.1em;
+}
+
+header {
 
     text-align: center;
     background-image: linear-gradient(to bottom, var(--cor01), var(--cor03), var(--cor05));
     
 }
-header >h1{
+header h1 {
     color: white;
     font-family:var(--fonte-destaque);
     padding-top: 20px;
+    box-shadow: 0px 0px 0px black;
+    
 
 }
-header > p{
+header > p {
     color: white;
     padding-top: 30px;
     padding-bottom: 20px;
     max-width: 400px;
     margin: auto;
+    font-size: 1.2em;
+    box-shadow: 0px 0px 0px black;
 }
 
-nav{
+nav {
     background-color: var(--cor05);
     height: 30px;
 
 }
-nav > a{
+nav > a {
     text-decoration: none;
     color: white;
     padding: 10px;
-}
-
-nav > a:hover{
     font-size: 1.2em;
 }
 
-main{
+nav > a:hover {
+    font-size: 1.4em;
+    text-decoration: underline;
+    background-color: #83e1ad;
+    color: var(--cor05);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+main {
 
     margin: auto;
-    max-width: 1000px;
+    max-width: 800px;
     background-color: white;
     text-align: justify;
     padding: 10px;
+    line-height: 2em;
+    font-size: 20px;
     
 }
 
-main h1 {
+main > article > h1 {
     font-family: var(--fonte-android);
-    
+    background-image: linear-gradient(to left, var(--cor00), var(--cor03));
+    text-indent: 5px;
+    color: var(--cor05);
+}
+
+main > article > h2 {
+    font-family: var(--fonte-android);
+    background-image: linear-gradient(to left, var(--cor00), var(--cor03));
+    text-indent: 5px;
+    color: var(--cor05);
 }
 
 main  p {
     text-indent: 30px;
 }
 
-main strong{
+main strong {
     font-weight: bold;
     color: var(--cor04);
 }
 
-main a{
+main a {
 
 }
 
-footer{
+footer {
     background-color: var(--cor05);
     color: white;
     text-align: center;
