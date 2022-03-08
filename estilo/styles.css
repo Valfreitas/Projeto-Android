@@ -1,12 +1,14 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 @font-face {
     font-family: 'Android';
     src: url('../fontes/idroid.otf') format('opentype');
     font-weight: normal;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 
 :root {
     --cor00: #83e1ad50;
@@ -52,9 +54,12 @@ header {
 }
 header h1 {
     color: white;
-    font-family:var(--fonte-destaque);
-    padding-top: 20px;
-    box-shadow: 0px 0px 0px black;
+    font-family: var(--fonte-destaque);
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.267);
+    font-weight: normal;
     
 
 }
@@ -65,7 +70,7 @@ header > p {
     max-width: 400px;
     margin: auto;
     font-size: 1.2em;
-    box-shadow: 0px 0px 0px black;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.267);
 }
 
 nav {
