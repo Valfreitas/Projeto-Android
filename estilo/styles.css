@@ -31,8 +31,11 @@
 
 body {
     background-image: url('../imagens/fundo.jpg');
-    font-family: var(--fonte-padrao);
-    
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;/*em px ou contain ou cover*/
+    background-attachment: fixed;
+    height: 100vh;
 }
 
 header{
@@ -73,7 +76,7 @@ nav > a:hover{
 main{
 
     margin: auto;
-    max-width: 800px;
+    max-width: 1000px;
     background-color: white;
     text-align: justify;
     padding: 10px;
