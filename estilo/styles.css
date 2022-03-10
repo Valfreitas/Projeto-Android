@@ -130,14 +130,16 @@ main a {
     background-color: var(--cor01);
     font-weight: bold;
     color: var(--cor05);
-
-
+    text-decoration: none;
 }
 
 main a:after {
     content: '\0020\1F517';
 
+}
 
+main a:hover {
+    text-decoration: underline;
 }
 
 div.video {
