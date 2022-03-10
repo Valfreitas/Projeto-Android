@@ -91,7 +91,7 @@ nav > a:hover {
 
 main {
     margin: auto;
-    max-width: 800px;
+    max-width: 900px;
     background-color: white;
     text-align: justify;
     padding: 10px;
@@ -168,7 +168,7 @@ aside {
 
 }
 
-aside h2 {
+aside h3 {
     background-color: var(--cor05);
     color: white;
     border-radius: 10px 10px 0px 0px;
